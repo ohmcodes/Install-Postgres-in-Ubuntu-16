@@ -29,3 +29,24 @@ The above command gets you the psql command line interface in full admin mode.
     psql=#  \conninfo
     OUTPUT:
     You are connected to database "<dbname>" as user "<user>" via socket in "/var/run/postgresql" at port "5432"
+
+# View table with relations
+    psql=# \d
+    
+    OUTPUT:
+                        List of relations
+    Schema |          Name                 |   Type   | Owner 
+    --------+------------------------------+----------+-------
+    public | <tablename>                   | table    | <user>
+    public | <tablename>_<relation>_id_seq | sequence | <user>
+  
+# View table without the sequence
+    psql=# \dt
+    
+            List of relations
+    Schema |    Name    | Type  | Owner 
+    --------+------------+-------+-------
+    public | <tablename> | table | <user>
+    
+    
+    
