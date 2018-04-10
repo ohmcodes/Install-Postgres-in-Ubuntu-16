@@ -1,6 +1,8 @@
-# Install Postgres in Ubuntu 16
-    sudo apt-get update
-    sudo apt-get install postgresql postgresql-contrib
+# Install Postgresql in Ubuntu 16
+This guide will teach you how to config and install Postgresql
+
+     sudo apt-get update
+     sudo apt-get install postgresql postgresql-contrib
 
 As the default configuration of Postgres is, a user called postgres is made on and the user postgres has full superadmin access to entire PostgreSQL instance running on your OS
 
