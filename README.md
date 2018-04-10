@@ -20,3 +20,12 @@ The above command gets you the psql command line interface in full admin mode.
     
 # Granting privileges on database
     psql=# grant all privileges on database <dbname> to <username> ;
+
+
+# Exit out of the PostgreSQL
+    psql=# \q
+    
+# Check your current connection information
+    psql=#  \conninfo
+    OUTPUT:
+    You are connected to database "<dbname>" as user "<user>" via socket in "/var/run/postgresql" at port "5432"
