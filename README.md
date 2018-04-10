@@ -1,4 +1,4 @@
-# Install-Postgres-in-Ubuntu-16
+# Install Postgres in Ubuntu 16
     sudo apt-get update
     sudo apt-get install postgresql postgresql-contrib
 
