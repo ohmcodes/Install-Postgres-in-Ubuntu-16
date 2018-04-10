@@ -3,7 +3,10 @@
     sudo apt-get install postgresql postgresql-contrib
 
 As the default configuration of Postgres is, a user called postgres is made on and the user postgres has full superadmin access to entire PostgreSQL instance running on your OS
+
     sudo -u postgres psql
+    
+The above command gets you the psql command line interface in full admin mode.
     
 # Creating User
     sudo -u postgres createuser <username>
