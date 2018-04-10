@@ -36,7 +36,7 @@ The above command gets you the psql command line interface in full admin mode.
     OUTPUT:
                         List of relations
     Schema |          Name                 |   Type   | Owner 
-    --------+------------------------------+----------+-------
+    -------+-------------------------------+----------+-------
     public | <tablename>                   | table    | <user>
     public | <tablename>_<relation>_id_seq | sequence | <user>
   
@@ -44,8 +44,8 @@ The above command gets you the psql command line interface in full admin mode.
     psql=# \dt
     
             List of relations
-    Schema |    Name    | Type  | Owner 
-    --------+------------+-------+-------
+    Schema |    Name     | Type  | Owner 
+    -------+-------------+-------+-------
     public | <tablename> | table | <user>
     
     
