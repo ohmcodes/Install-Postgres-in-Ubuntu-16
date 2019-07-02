@@ -15,6 +15,9 @@ The above command gets you the psql command line interface in full admin mode.
 
 # Creating Database
     sudo -u postgres createdb <dbname>
+    
+# Drop Database
+     sudo -u postgres -c "drop database <dbname>"
    
 # Giving the user a password
     sudo -u postgres psql
