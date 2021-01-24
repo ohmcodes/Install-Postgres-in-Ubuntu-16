@@ -1,4 +1,4 @@
-# Install Postgresql in Ubuntu 16
+# Install Postgresql in Ubuntu
 This guide will teach you how to config and install Postgresql
 
      sudo apt-get update
