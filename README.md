@@ -25,7 +25,9 @@ The above command gets you the psql command line interface in full admin mode.
     
 # Granting privileges on database
     psql=# grant all privileges on database <dbname> to <username> ;
-
+    
+    psql=# \c <dbname>
+    psql=# GRANT ALL PRIVILEGES ON TABLE <tblname> to <username>;
 
 # Exit out of the PostgreSQL
     psql=# \q
